@@ -1,0 +1,50 @@
+/* Reset CSS - Normaliza os estilos para maior consistência entre navegadores */
+
+/* Remove espaçamentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corrige fonte e suaviza a renderização */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Definições padrão para body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Remover estilos padrão de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remover decoração de links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Tornar botões mais consistentes */
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  
+  /* Imagens responsivas */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
